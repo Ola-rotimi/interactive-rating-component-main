@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  font-family: "Overpass", sans-serif;
+  font-size: 15px;
+  background-color: hsl(216, 12%, 8%);
+  color: hsl(0, 0%, 100%);
+}
+
+a {
+  text-decoration: none;
+  color: hsl(217, 12%, 63%);
+}
+
+.thanks {
+  text-align: center;
+  width: 90%;
+  margin: 35% auto;
+  padding: 20px;
+  color: hsl(0, 0, 0);
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 20px;
+}
+
+.thanks img {
+  width: 162px;
+  height: 108px;
+  margin: 20px 0;
+}
+
+.thanks h1 {
+  font-weight: 700;
+  margin-bottom: 20px;
+  width: auto;
+  background-color: hsl(214, 19%, 21%);
+  border-radius: 20px;
+  font-size: 15px;
+  color: hsl(25, 97%, 53%);
+}
+
+.thanks h2 {
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 20px;
+}
+
+.thanks p {
+  align-content: center;
+  font-weight: 300;
+  color: hsl(217, 12%, 63%);
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .thanks {
+    width: 28%;
+    margin: 10% auto;
+  }
+  .thanks img {
+    width: 162px;
+    height: 108px;
+    margin: 20px 0;
+  }
+  .thanks h1 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    width: auto;
+    background-color: hsl(214, 19%, 21%);
+    border-radius: 20px;
+    font-size: 15px;
+    color: hsl(25, 97%, 53%);
+  }
+  .thanks h2 {
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 20px;
+  }
+  .thanks p {
+    align-content: center;
+    font-weight: 300;
+    color: hsl(217, 12%, 63%);
+    margin-bottom: 20px;
+  }
+}
